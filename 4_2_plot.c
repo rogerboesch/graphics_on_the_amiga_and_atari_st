@@ -184,7 +184,7 @@ char c;
     if (c == '?' || c= 'h') return HELP;            /* HELP!!               */
     else if (c == '1') return LINE;                 /* line command         */
     else if (c == 'p') return POINT;                /* point command        */
-    else if (c == 'm' ) return M3VE;                /* move command         */
+    else if (c == 'm' ) return MOVE;                /* move command         */
     else if (c == 'q') return QUIT;                 /* quit command         */
     else if (c == 'n') return CLEAR;                /* clear the screen     */
     else if (c == 'c') return COLOR;                /* color command        */
