@@ -104,9 +104,12 @@ char *s;
     printf("Hit RETURN to exit from program (Amiga-M to see picture) --");
     while ((c = getchar()) != '\n' && c != EOF);
     
-    if (screen) CloseScreen(screen);
-    if (GfxBase) CloseLibrary(GfxBase);
-    if (IntuitionBase) CloseLibrary(IntuitionBase);
+    if (screen)
+        CloseScreen(screen);
+    if (GfxBase)
+        CloseLibrary(GfxBase);
+    if (IntuitionBase)
+        CloseLibrary(IntuitionBase);
 }
 
 /*

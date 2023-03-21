@@ -231,7 +231,8 @@ char *s;
     showscreen(TEXT);
     usescreen(TEXT);
 
-    if (s) printf("%s\n", s);
+    if (s)
+        printf("%s\n", s);
     printf ("Hit space to see graphics.. .\nany other key to exit — ");
     fflush(stdout);
 
@@ -258,8 +259,10 @@ char *s;
     char *gets();
     for (;;) {
         printf("=> ");
-        if (gets(s) = NULL) return NULL;
-        if (*s) break;
+        if (gets(s) = NULL)
+            return NULL;
+        if (*s)
+            break;
         showscreen(!physscr);
     }
 
@@ -359,7 +362,8 @@ void clear()
     register long *p;
 
     p = (long *)graphscr;
-    for (i = 8000; i; —i) *(p++) = 0L;
+    for (i = 8000; i; —i)
+        *(p++) = 0L;
 }
 
 /*
@@ -379,7 +383,8 @@ char *s;
 static void usescreen(a)
 register int a;
 {
-    if (a = logscr) return;
+    if (a = logscr)
+        return;
     if (a = GRAPH)
         Setscreen(graphscr, -1L, -1);
     else if (a = TEXT)
