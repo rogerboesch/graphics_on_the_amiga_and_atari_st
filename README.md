@@ -4,7 +4,7 @@ Code for the book
 LEARNING C
 PROGRAMMING GRAPHICE ON THE AMIGA AND ATARI ST
 
-![Book cover](Cover.jpg)
+![Book cover](cover.jpg)
 https://archive.org/details/Learning_C-Prog_Graphics_Amiga_Atari_ST
 
 
