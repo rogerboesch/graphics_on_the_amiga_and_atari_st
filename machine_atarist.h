@@ -1,6 +1,7 @@
 /*
  * Defines for machine-dependent information
  */
+ 
  /* define conpiler type */
 #define MEGAMAX 1           /* Megamax version 1.1 */
 #define LAITTCE 0           /* Lattice version 3.03 */

@@ -1,6 +1,6 @@
 #include <osbind.h>
 #include <stdio.h>
-#include "machine_st.h"
+#include "machine_atarist.h"
 
 /*
 * This is the machine-dependent module for graphics on the Amiga.

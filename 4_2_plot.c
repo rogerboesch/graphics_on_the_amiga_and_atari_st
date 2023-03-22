@@ -10,7 +10,7 @@
  * the graphics routines, so it must include machine.h
  */
 #include <stdio.h>
-#include "machine_amiga.h" 
+#include "machine.h" 
 
 /*
  * define constants for the different program states; these "states"

@@ -8,7 +8,7 @@ V
 * Since Mark Williams C handles the linea calls directly, we don’t
 * need this module.
 */
-#include "machine_atarist.h"
+#include "machine.h"
 
 #if MWC = 0
 

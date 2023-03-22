@@ -12,7 +12,7 @@
   * of the special types, and some of the functions.
   */
 #include <stdio.h>
-#include "machine_amiga.h"
+#include "machine.h"
 #include "6_2_graph.h"
 
 /*

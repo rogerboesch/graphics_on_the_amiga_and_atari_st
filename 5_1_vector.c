@@ -8,7 +8,7 @@
  * include header files
  */
 #include <stdio.h>
-#include "machine_amiga.h"
+#include "machine.h"
 
 /*
  * definitions of program states; as with plot.c, these are used to
