@@ -12,5 +12,5 @@ https://archive.org/details/Learning_C-Prog_Graphics_Amiga_Atari_ST
 
 ## TODO
 
-- Test code
-- Write modern variant of code to test on Windows, macOS and Linux
+- [ ] Write modern variant of code to test on Windows, macOS and Linux
+- [ ] Test code
